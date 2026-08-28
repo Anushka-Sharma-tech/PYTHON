@@ -11,7 +11,7 @@ hellow()
 
 # def-main
 def main():
-    name=input("what's your name?")
+    name=input("what's your name? ")
     hello1(name)
     hellow1()
 
@@ -21,3 +21,4 @@ def hellow1(to="World"):
     print("Hello,",to)
 
 main()
+
