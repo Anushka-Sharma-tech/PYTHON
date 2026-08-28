@@ -22,3 +22,11 @@ print(f"{z:,}")
 n=round((a/b),2)
 print(n)
 print(f"{(a/b): .3f}")
+
+# Using def and return keywords
+def main():
+    x1=int(input("What's x? "))
+    print("x squared is equal to",square(x1))
+def square(n):
+    return n*n # or pow(n,2) or n**2
+main
