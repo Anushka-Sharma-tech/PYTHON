@@ -20,7 +20,8 @@ if x!=y :
 else:
     print("x is equal to y")
 
-#and
+# and
+
 score=int(input("Score:"))
 if score>=90 and score<=100:
     print("Grade: A")
@@ -34,3 +35,34 @@ elif score>=60:
     print("Grade: D")
 else:
     print("Grade: F")
+
+# Modulo Operator 
+
+num=int(input("What's num? "))
+if(num%2==0):
+    print("This number is even...")
+else:
+    print("This number is odd...")
+
+def main():
+    x=int(input("What's num? "))
+    if is_even(x):
+        print("This number is even...")
+    else:
+        print("This number is odd...")
+def is_even(n):
+      return (n%2==0)
+     #bool - True/False
+    
+main()
+
+# match
+
+name=input("What's your name? ")
+match name:
+     case "Harry"|"Hermione"|"Ron":
+          print("Gryffindor")
+     case "Draco":
+           print("Slytherin")
+     case _:
+          print("Who?")    
