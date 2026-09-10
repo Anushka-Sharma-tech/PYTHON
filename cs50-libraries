@@ -1,0 +1,25 @@
+#importing the random module and using the choice function
+
+import random
+coin1=random.choice(["heads","tails"]);
+print(coin1)
+
+# using from keyword
+
+from random import choice
+coin2=choice(["heads","tails"])
+print(coin2)
+
+# using randint(a,b) function
+
+import random
+num=random.randint(1,10)
+print(num)
+
+# using shuffle(x) function
+
+import random
+cards=["jack","queen","king"]
+random.shuffle(cards)
+for card in cards:
+    print(card)
