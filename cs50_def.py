@@ -3,11 +3,7 @@ def hello(to):
     print("hello,",to)
 # To set a default value of the argument
 def hellow(to="World"):
-    print("Hello,",to)
-
-name=input("what's your name?")
-hello(name)
-hellow()
+    return f"Hello, {to}"
 
 # def-main
 def main():
@@ -20,5 +16,5 @@ def hello1(to):
 def hellow1(to="World"):
     print("Hello,",to)
 
-main()
+
 
